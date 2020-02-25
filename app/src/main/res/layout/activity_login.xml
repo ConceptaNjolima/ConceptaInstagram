@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etsetUsername"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/etsetPassword"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etsetUsername"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etsetPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:hint="LOGIN"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etsetPassword"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/btnLogin"
+        android:text="SIGNUP" />
+
+</RelativeLayout>
