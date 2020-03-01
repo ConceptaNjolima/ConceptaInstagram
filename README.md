@@ -2,7 +2,7 @@
 
 **ConceptaInstagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **15** hours spent in total
+Time spent: **25** hours spent in total
 
 ## User Stories
 
@@ -12,15 +12,19 @@ The following **required** functionality is completed:
 - [X] User can log in and log out of his or her account.
 - [X] The current signed in user is persisted across app restarts.
 - [X] User can take a photo, add a caption, and post it to "Instagram".
+- [X] User can view the last 20 posts submitted to "Instagram".
+- [X] The user should switch between different tabs - viewing all posts (feed view), capture (camera and photo gallery view) and profile tabs (posts made) using fragments and a Bottom Navigation View. 
 
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+Fist part of the project
 <img src='https://github.com/ConceptaNjolima/ConceptaInstagram/blob/master/app/ConceptaInstagram.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Final part of the project
+<img src='https://github.com/ConceptaNjolima/ConceptaInstagram/blob/master/app/ConceptaInstagram%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 GIF created with [Peek].
 
 ## Notes
