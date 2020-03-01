@@ -21,10 +21,14 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 Fist part of the project
+
 <img src='https://github.com/ConceptaNjolima/ConceptaInstagram/blob/master/app/ConceptaInstagram.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Final part of the project
+
 <img src='https://github.com/ConceptaNjolima/ConceptaInstagram/blob/master/app/ConceptaInstagram%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 GIF created with [Peek].
 
 ## Notes
